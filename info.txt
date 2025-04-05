@@ -1,0 +1,8 @@
+Pravin Adithya Srinivasan: He worked majorly on the dijkstras file and helped on with the generate map. 
+Manihams Suraparaju: I worked on the generate_map and shellscript to record the elapsed time and memory usage in a Markdown table. I also helped with the logic for dijkstras file.
+
+Questions:
+
+1. The graph is represented as a 2D grid with each tile functions as a graph node and edges exist between adjacent tiles. The adjacency follows four directions- up, down, left, and right. The edges have weights with the cost of leaving a tile rather than entering it.
+2. Our implementation of Dijkstra’s Algorithm has a time complexity of O((V + E) * log(V)). We used a priority queue that organized nodes by their cost, allowing efficient selection of the next lowest-cost node. Additionally, we utilized 2D vectors and an unordered map to store and access cells efficiently, enabling fast lookups during pathfinding.
+3. The implementation scale was very low for the small map sizes and for large maps, both the execution and memory usage increased quadratically. The execution time increases with N^2 log N as the size of the map increases. 
