@@ -1,3 +1,12 @@
+//Project 4: dijkstras.cpp
+//Names: Pravin Adithya Srinivasan, Manihams Suraparaju
+//Program Description: This program implements Dijkstra’s algorithm to find the shortest path 
+//on a grid where each tile has a specific movement cost. It reads the grid dimensions, tile costs, 
+//and the starting and ending coordinates, then uses a priority queue to explore the grid and 
+//calculate the minimum cost path. After finding the path, it reconstructs 
+//and prints the route and its cost.
+//Help: Class Notes, GeeksForGeeks, Bing, Youtube
+
 #include <iostream>
 #include <vector>
 #include <queue>
